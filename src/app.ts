@@ -3,6 +3,9 @@ import * as TrainerSets from './TrainerSet.js';
 import TrainerSet from './TrainerSet.js'
 import { getArrayRandomValue } from './utils.js';
 
+const predictionLog = document
+    .querySelector('[data-js="prediction-log"]') as HTMLElement
+
 //Initializing perceptron with two inputs.
 const perceptron: Perceptron = new Perceptron(2);
 
@@ -32,3 +35,9 @@ const predictions: number[] = [
 ];
 
 console.log(predictions);
+
+predictions.forEach((prediction): void => {
+    const newText = ''.concat('(', String(prediction), ')').trim()
+    const text: Node = new Text(newText);
+    predictionLog.appendChild(text);
+})
