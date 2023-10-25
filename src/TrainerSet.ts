@@ -1,5 +1,3 @@
-import { getArrayRandomValue } from './utils.js';
-
 type TrainerSet = {
     inputs: number[],
     label: number

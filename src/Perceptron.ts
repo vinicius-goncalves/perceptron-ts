@@ -24,10 +24,8 @@ class Perceptron {
             values.push(inputs[i] * this.weights[i]);
         }
 
-        const reduceSum = (acc: number, item: number): number => acc + item
-
-        let sum: number = values
-            .reduce(reduceSum, this.bias);
+        const reduceSum = (acc: number, item: number): number => acc + item;
+        const sum: number = values.reduce(reduceSum, this.bias);
 
         return this.activation(sum);
     }

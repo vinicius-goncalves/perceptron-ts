@@ -17,8 +17,7 @@ class Perceptron {
             values.push(inputs[i] * this.weights[i]);
         }
         const reduceSum = (acc, item) => acc + item;
-        let sum = values
-            .reduce(reduceSum, this.bias);
+        const sum = values.reduce(reduceSum, this.bias);
         return this.activation(sum);
     }
     train(inputs, label, lr = 0.1) {
