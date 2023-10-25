@@ -4,7 +4,7 @@ import { getArrayRandomValue } from './utils.js';
 //Initializing perceptron with two inputs.
 const perceptron = new Perceptron(2);
 //Training the perceptron with 20 thousand epochs by getting an random value from the trainer set. In this example, AND set.
-// const OR: TrainerSet[] = TrainerSets.ANDTrainer;
+// const OR: TrainerSet[] = TrainerSets.ORTrainer;
 const AND = TrainerSets.ANDTrainer;
 for (let i = 0; i < 500; i++) {
     // const { inputs, label }: { inputs: number[], label: number } =
