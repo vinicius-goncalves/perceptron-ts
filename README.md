@@ -7,7 +7,7 @@
 
 ## First Steps
 
-The project is already compiled to JavaScript, but if you feel like changing something in **TypeScript**, of course, you will need to have TypeScript compiler installed, and for that, you will need to have a packet manager such as NodeJS or Yarn installed.
+The project is already compiled to JavaScript, but if you feel like changing something in **TypeScript**, of course, you will need to have TypeScript compiler installed, and for that, you will need to have a packet manager such as ```npm``` or ```yarn``` installed.
 
 **Making TypeScript code changes**
 
