@@ -1,8 +1,13 @@
-# Perceptron
-![typescript][]
+<div align="center">
+	<div align="left">
+		<h1>Perceptron</h1>
+		<p>This is an example of how a single perceptron works, it was one of the first codes I made to study neural networks, and the code was made using TypeScript.</p>
+	</div>
+	<img src="https://img.shields.io/badge/TypeScript-323330?style=for-the-badge&logo=typescript&logoColor=3077C5" alt="typescript logo">
+</div>
 
 <div id="introduction">
-	This is an example of how a single perceptron works, it was one of the first codes I made to study neural networks, and the code was made using TypeScript.
+	
 </div>
 
 ## First Steps
